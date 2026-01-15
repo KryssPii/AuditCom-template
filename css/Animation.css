@@ -4,7 +4,8 @@
     background-color: #b0acac;
     overflow: hidden;
     position: relative;
-    height: 200px; /* Réduisez la hauteur pour mieux correspondre aux logos */
+    height: 200px;
+    /* Réduisez la hauteur pour mieux correspondre aux logos */
     width: 100%;
     white-space: nowrap;
 }
@@ -13,39 +14,50 @@
     display: flex;
     height: 100%;
     margin: 0;
-    align-items: center; /* Centre verticalement les éléments */
+    align-items: center;
+    /* Centre verticalement les éléments */
     transform: translateX(100%);
-    animation: scroll-left 20s linear infinite; /* Augmentez la durée pour un défilement plus lent */
+    animation: scroll 10s linear infinite;
+    /* Augmentez la durée pour un défilement plus lent */
 }
 
 .team-item {
     display: flex;
-    flex-direction: column; /* Empile le logo et le texte verticalement */
-    align-items: center; /* Centre horizontalement */
-    justify-content: center; /* Centre verticalement */
-    margin: 0 30px; /* Espacement horizontal entre chaque élément */
+    flex-direction: column;
+    /* Empile le logo et le texte verticalement */
+    align-items: center;
+    /* Centre horizontalement */
+    justify-content: center;
+    /* Centre verticalement */
+    margin: 0 30px;
+    /* Espacement horizontal entre chaque élément */
     white-space: nowrap;
 }
 
 .team-item img {
-    height: 60px; /* Taille fixe pour les logos */
+    height: 60px;
+    /* Taille fixe pour les logos */
     width: auto;
-    margin-bottom: 5px; /* Espacement entre le logo et le texte */
+    margin-bottom: 5px;
+    /* Espacement entre le logo et le texte */
 }
 
 .team-item span {
-    font-size: 14px; /* Taille de police adaptée */
+    font-size: 14px;
+    /* Taille de police adaptée */
     text-align: center;
-    max-width: 100px; /* Limite la largeur du texte pour éviter les débordements */
+    max-width: 100px;
+    /* Limite la largeur du texte pour éviter les débordements */
     overflow: hidden;
     text-overflow: ellipsis;
 }
 
-@keyframes scroll-left {
-    0% {
-        transform: translateX(100%);
+    @keyframes scroll {
+        0% {
+            transform: translateX(0);
+        }
+
+        100% {
+            transform: translateX(-50%);
+        }
     }
-    100% {
-        transform: translateX(-100%);
-    }
-}
