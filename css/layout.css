@@ -6,10 +6,27 @@ header {
 div.grid {
     display: grid;
     grid-template-areas: "a b"
-                          "c d";
+        "c d";
 }
 
+section.intro {
+    background-image: url("Images\heroimage.webp");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
 
+section#chiffres {
+    background-image: url("Images\background.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 40px 20px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /* Conteneur principal */
 .stats-container {
@@ -82,6 +99,7 @@ div.grid {
         grid-template-columns: 1fr;
     }
 }
+
 /* Style du bouton sticky */
 .sticky-download-button {
     position: fixed;
