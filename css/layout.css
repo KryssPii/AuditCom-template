@@ -9,12 +9,7 @@ div.grid {
                           "c d";
 }
 
-/* Réinitialisation des marges et padding */
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-}
+
 
 /* Conteneur principal */
 .stats-container {
@@ -85,5 +80,38 @@ body {
 @media (max-width: 600px) {
     .stats-container {
         grid-template-columns: 1fr;
+    }
+}
+/* Style du bouton sticky */
+.sticky-download-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.download-button {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #1E3A5F;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 25px;
+    font-size: 14px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+}
+
+.download-button:hover {
+    background-color: #0d2c49;
+}
+
+/* Masquer le bouton sur les écrans de téléphone */
+@media (max-width: 768px) {
+    .sticky-download-button {
+        display: none;
     }
 }
