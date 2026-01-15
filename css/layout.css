@@ -62,9 +62,9 @@ section#chiffres {
 .cta-button {
     grid-column: span 2;
     background-color: black;
-    padding: 15px;
+    padding: 2rem;
     text-align: center;
-    font-size: 18px;
+    font-size: 1.5rem;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -76,11 +76,7 @@ section#chiffres {
     cursor: pointer;
 }
 
-@media (max-width: 600px) {
-    .stats-container {
-        grid-template-columns: 1fr;
-    }
-}
+
 
 /* Style du bouton sticky */
 .sticky-download-button {
@@ -111,11 +107,6 @@ section#chiffres {
     background-color: #0d2c49;
 }
 
-@media (max-width: 768px) {
-    .sticky-download-button {
-        display: none;
-    }
-}
 div.text-content {
     font-size: 2rem;
 }

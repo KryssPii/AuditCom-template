@@ -1,0 +1,17 @@
+@media screen and (max-width: 375px) and (min-width: 360px) {
+   /* grille des stats */
+    .stats-container {
+        grid-template-columns: 1fr;
+    }
+/* button sticky */
+    .sticky-download-button {
+        display: none;
+    }
+/* formulaire */
+    .container {
+        flex-direction: column;
+    }
+    body {
+        font-size: 10px;
+    }
+}

@@ -2,8 +2,10 @@
 @import "layout.css";
 @import "hero.css";
 @import "Formular.css";
+@import "Responsive.css";
 @import "Animation.css";
 @import "Fonts.css";
+
 
 img {
     width: 250px;

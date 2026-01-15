@@ -14,53 +14,42 @@
         height: 100%;
         margin: 0;
         align-items: center;
-        /* Centre verticalement les éléments */
         transform: translateX(100%);
-        animation: scroll 10s linear infinite;
-        /* Augmentez la durée pour un défilement plus lent */
+        animation: scroll 25s linear infinite;
     }
 }
 
 .team-item {
     display: flex;
     flex-direction: column;
-    /* Empile le logo et le texte verticalement */
     align-items: center;
-    /* Centre horizontalement */
     justify-content: center;
-    /* Centre verticalement */
     margin: 0 30px;
-    /* Espacement horizontal entre chaque élément */
     white-space: nowrap;
-
     & img {
-        height: 60px;
-        /* Taille fixe pour les logos */
+        height: 65px;
         width: auto;
         margin-bottom: 5px;
-        /* Espacement entre le logo et le texte */
     }
 }
 
 
 .team-item span {
-    font-size: 14px;
-    /* Taille de police adaptée */
+    font-size: 12px;
     color: white;
     font-size: 8px;
     text-align: center;
     max-width: 100px;
-    /* Limite la largeur du texte pour éviter les débordements */
     overflow: hidden;
     text-overflow: ellipsis;
 }
 
 @keyframes scroll {
-    0% {
+    from {
         transform: translateX(0);
     }
 
-    100% {
+    to {
         transform: translateX(-50%);
     }
 }
