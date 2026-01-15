@@ -23,53 +23,83 @@
         </section>
 
         <section id="chiffres">
-            <div class="grid">
-                <div class="grid-item">
-                    <p>Stat 1</p>
+            <div class="stats-container">
+                <!-- Bloc 1 -->
+                <div class="stat-block white-bg">
+                    <div class="percentage">80%</div>
+                    <div class="description">
+                        DES CLUBS SONT INTROUVABLES SUR LEURS MOTS-CLÉS LOCAUX.
+                    </div>
                 </div>
-                <div class="grid-item">
-                    <p>Stat 2</p>
+
+                <!-- Bloc 2 -->
+                <div class="stat-block dark-bg">
+                    <div class="percentage">98%</div>
+                    <div class="description">
+                        DES CLUBS DE FOOT ROMANDS N'ONT PAS MAXIMISÉ LEUR PRÉSENCE SUR LES RÉSEAUX SOCIAUX.
+                    </div>
                 </div>
-                <div class="grid-item">
-                    <p>Stat 3</p>
+
+                <!-- Bloc 3 -->
+                <div class="stat-block dark-bg">
+                    <div class="percentage">92%</div>
+                    <div class="description">
+                        DES SITES DE CLUB DE FOOT ROMANDS NE SONT PAS OPTIMISÉS EN TERMES DE RÉFÉRENCEMENT.
+                    </div>
                 </div>
-                <div class="grid-item">
-                    <p>Stat 4</p>
+
+                <!-- Bloc 4 -->
+                <div class="stat-block white-bg">
+                    <div class="percentage">60%</div>
+                    <div class="description">
+                        DES CLUBS IGNORENT L'ÈRE MOBILE DANS LEUR STRATÉGIE DIGITALE.
+                    </div>
+                </div>
+
+                <!-- Bouton -->
+                <div>
+                    <a href="#formulaire">
+                        ACCÉDEZ AU RAPPORT GRATUIT!</a>
                 </div>
             </div>
         </section>
 
         <div class="marquee">
-        <!-- Conteneur pour la liste des éléments -->
-        <section id="teamList">
-        </section>
+            <!-- Conteneur pour la liste des éléments -->
+            <section id="teamList">
+            </section>
         </div>
 
-        <!-- Conteneur pour le message de formulaire -->
-        <div id="messageContainer"></div>
+        <div class="container">
+            <!-- Conteneur pour le texte -->
+            <div class="text-content">
+                <p>PROFITEZ DE NOTRE ANALYSE EXCLUSIVE DE L'ÉCOSYSTÈME DIGITAL DE 28 CLUBS DE FOOTBALL ROMANDS.</p>
+            </div>
 
-        <section id="formulaire">
-            <h2>Téléchargez le rapport</h2>
-            <!-- Formulaire de téléchargement -->
-            <form id="downloadForm">
-                <label for="firstName">Prénom</label>
-                <input type="text" id="firstName" name="firstName" required>
+            <!-- Conteneur pour le formulaire -->
+            <div class="form-container">
+                <section id="formulaire">
+                    <h2>FORUMLAIRE</h2>
+                    <form id="downloadForm">
+                        <label for="firstName">PRÉNOM</label>
+                        <input type="text" id="firstName" name="firstName" required>
 
-                <label for="lastName">Nom de famille</label>
-                <input type="text" id="lastName" name="lastName" required>
+                        <label for="lastName">NOM</label>
+                        <input type="text" id="lastName" name="lastName" required>
 
-                <label for="email">Adresse email</label>
-                <input type="email" id="email" name="email" required>
+                        <label for="email">EMAIL</label>
+                        <input type="email" id="email" name="email" required>
 
-                <div class="checkbox-group">
-                    <input type="checkbox" id="newsletterAgreement" name="newsletterAgreement" required>
-                    <label for="newsletterAgreement">J'accepte de recevoir la newsletter pour télécharger le
-                        rapport</label>
-                </div>
+                        <div class="checkbox-group">
+                            <input type="checkbox" id="newsletterAgreement" name="newsletterAgreement" required>
+                            <label for="newsletterAgreement">J'ACCEPTE DE RECEVOIR UNE NEWSLETTER</label>
+                        </div>
 
-                <button type="submit">Télécharger le rapport</button>
-            </form>
-        </section>
+                        <button type="submit">TÉLÉCHARGER LE RAPPORT</button>
+                    </form>
+                </section>
+            </div>
+        </div>
     </main>
 </body>
 
