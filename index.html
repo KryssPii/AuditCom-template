@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,11 +9,22 @@
     <script src="src/main.js" type="module" defer></script>
 
 </head>
+
 <body>
-    <h1>Hello World !</h1>
+    <header>
+        <div><img src="" alt=""></div>
+        <nav>
+            <ul>
+                <li><a href="">Accueil</a></li>
+                <li><a href="">Chiffres</a></li>
+                <li><a href="">Equipe</a></li>
+                <li><a href="">Formulaire</a></li>
+            </ul>
+        </nav>
+    </header>
     <!-- data-bind-global="count" : Affiche le nombre total de rapports (métadonnées globales) -->
     <h1 data-bind-global="count"></h1>
-    
+
     <!-- id="teamList" : Conteneur où seront ajoutés dynamiquement les éléments de l'équipe. Le nom de cet ID ne doit pas être modifié. -->
     <section id="teamList">
     </section>
@@ -25,4 +37,5 @@
     </form>
 
 </body>
+
 </html>
