@@ -1,5 +1,10 @@
 @import "reset.css";
+@import "layout.css";
+@import "Fonts.css";
 
 img {
     width: 250px;
+}
+ul#navigation{
+    display: inline;
 }
