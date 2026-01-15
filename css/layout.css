@@ -15,7 +15,6 @@ section#chiffres {
     align-items: center;
 }
 
-/* Conteneur principal */
 .stats-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -26,7 +25,6 @@ section#chiffres {
     padding: 20px;
 }
 
-/* Bloc de statistiques */
 .stat-block {
     padding: 20px;
     border-radius: 10px;
@@ -36,19 +34,16 @@ section#chiffres {
     -moz-box-shadow: 13px 14px 5px -7px rgba(0, 0, 0, 0.75);
 }
 
-/* Fond blanc */
 .white-bg {
     background-color: white;
     color: #333;
 }
 
-/* Fond bleu foncé */
 .dark-bg {
     background-color: #1E3A5F;
     color: white;
 }
 
-/* Pourcentage */
 .percentage {
     font-size: 72px;
     font-weight: bold;
@@ -56,7 +51,6 @@ section#chiffres {
     margin-bottom: 10px;
 }
 
-/* Description */
 .description {
     font-size: 14px;
     font-weight: bold;
@@ -65,7 +59,6 @@ section#chiffres {
     letter-spacing: 0.5px;
 }
 
-/* Bouton CTA */
 .cta-button {
     grid-column: span 2;
     background-color: black;
@@ -83,7 +76,6 @@ section#chiffres {
     cursor: pointer;
 }
 
-/* Responsive */
 @media (max-width: 600px) {
     .stats-container {
         grid-template-columns: 1fr;
@@ -119,11 +111,13 @@ section#chiffres {
     background-color: #0d2c49;
 }
 
-/* Masquer le bouton sur les écrans de téléphone */
 @media (max-width: 768px) {
     .sticky-download-button {
         display: none;
     }
+}
+div.text-content {
+    font-size: 2rem;
 }
 footer{
     background-color: #1e1f23;
