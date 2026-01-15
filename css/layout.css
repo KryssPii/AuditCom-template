@@ -125,3 +125,12 @@ section#chiffres {
         display: none;
     }
 }
+footer{
+    background-color: #1e1f23;
+    display: flex;
+    justify-content: right;
+}
+div.social{
+    display: inline;
+    margin: 1rem;
+}
