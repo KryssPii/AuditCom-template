@@ -1,9 +1,11 @@
 <template>
   <article>
     <!-- data-bind-attr-src="logoUrl" : Affiche le logo de l'équipe -->
+     <div class="team-item">
     <img data-bind-attr-src="logoUrl" alt="Logo">
     <!-- data-bind="teamName" : Affiche le nom de l'équipe -->
-    <h2 data-bind="teamName"></h2>
+   <span> <h2 data-bind="teamName"></h2> </span>
+    </div>
     <!-- data-bind="uploadedAt" : Affiche la date de téléversement 
     <p data-bind="uploadedAt"></p> -->
     <!-- data-bind="author" : Affiche l'auteur 
