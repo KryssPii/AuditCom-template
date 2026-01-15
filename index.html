@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Télécharger l'audit</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="src/main.js" type="module" defer></script>
 
@@ -15,20 +15,60 @@
         <div><img src="" alt=""></div>
         <button id="Download">Télécharger le rapport</button>
     </header>
-    <!-- data-bind-global="count" : Affiche le nombre total de rapports (métadonnées globales) -->
-    <h1 data-bind-global="count"></h1>
+    <main>
+        <section id="accueil" class="intro">
+            <div>
+                <h1>Phrase d'accroche ki tu</h1>
+            </div>
+        </section>
 
-    <!-- id="teamList" : Conteneur où seront ajoutés dynamiquement les éléments de l'équipe. Le nom de cet ID ne doit pas être modifié. -->
-    <section id="teamList">
-    </section>
+        <section id="chiffres">
+            <div class="grid">
+                <div class="grid-item">
+                    <p>Stat 1</p>
+                </div>
+                <div class="grid-item">
+                    <p>Stat 2</p>
+                </div>
+                <div class="grid-item">
+                    <p>Stat 3</p>
+                </div>
+                <div class="grid-item">
+                    <p>Stat 4</p>
+                </div>
+            </div>
+        </section>
+        <!-- Conteneur pour la liste des éléments -->
+        <section id="teamList">
+            
+        </section>
 
-    <!-- id="messageContainer" : Conteneur pour afficher les messages de succès ou d'erreur. Le nom de cet ID ne doit pas être modifié. -->
-    <div id="messageContainer"></div>
+        <!-- Conteneur pour le message de formulaire -->
+        <div id="messageContainer"></div>
 
-    <!-- id="downloadForm" : Formulaire pour télécharger le PDF. Le nom de cet ID ne doit pas être modifié. -->
-    <form id="downloadForm">
-    </form>
+        <section id="formulaire">
+            <h2>Téléchargez le rapport</h2>
+            <!-- Formulaire de téléchargement -->
+            <form id="downloadForm">
+                <label for="firstName">Prénom</label>
+                <input type="text" id="firstName" name="firstName" required>
 
+                <label for="lastName">Nom de famille</label>
+                <input type="text" id="lastName" name="lastName" required>
+
+                <label for="email">Adresse email</label>
+                <input type="email" id="email" name="email" required>
+
+                <div class="checkbox-group">
+                    <input type="checkbox" id="newsletterAgreement" name="newsletterAgreement" required>
+                    <label for="newsletterAgreement">J'accepte de recevoir la newsletter pour télécharger le
+                        rapport</label>
+                </div>
+
+                <button type="submit">Télécharger le rapport</button>
+            </form>
+        </section>
+    </main>
 </body>
 
 </html>

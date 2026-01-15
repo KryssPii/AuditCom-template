@@ -1,4 +1,10 @@
-header{
+header {
     justify-items: right;
     position: sticky;
+}
+
+div.grid {
+    display: grid;
+    grid-template-areas: "a b"
+                          "c d";
 }
