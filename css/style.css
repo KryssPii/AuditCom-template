@@ -7,6 +7,12 @@
 img {
     width: 250px;
 }
-body{
+
+body {
     font-family: 'SwissNow', Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }

@@ -1,7 +1,7 @@
 .marquee {
     box-shadow: 0 1px 3px rgba(0, 0, 0, .1);
     border: 1px solid rgba(0, 0, 0, .15);
-    background-color: #ffffff;
+    background-color: #b0acac;
     overflow: hidden;
     position: relative;
     height: 200px; /* Réduisez la hauteur pour mieux correspondre aux logos */
