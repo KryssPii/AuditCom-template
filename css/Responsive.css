@@ -1,8 +1,9 @@
-@media screen and (max-width: 375px) and (min-width: 360px) {
+@media screen and (max-width: 500px) and (min-width: 320px) {
 
     /* grille des stats */
     .stats-container {
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-wrap: wrap;
     }
 
     /* button sticky */
@@ -16,15 +17,20 @@
     }
 
     #hero {
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
         text-align: center;
+        width: auto;
+        height:100vh;
+        padding-left: 8rem;
         position: relative;
-        background-size: auto;
+        background-size: cover;
     }
 
     .hero-content>h1 {
         font-size: 2rem;
+        margin: auto;
+        padding: auto;
+    }
+    div.text-content > p{
+        font-size: 1.5rem;
     }
 }
