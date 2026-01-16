@@ -2,3 +2,7 @@
     font-family: "SwissNow";
     src: url(../Fonts/SwissNowTrial-Black.woff2) format(woff2);
 }
+@font-face {
+    font-family: "Montserrat";
+    src: url(../Fonts/MontserratAlternates-Bold.otf) format(otf);
+}
