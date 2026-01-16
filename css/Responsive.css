@@ -1,17 +1,30 @@
 @media screen and (max-width: 375px) and (min-width: 360px) {
-   /* grille des stats */
+
+    /* grille des stats */
     .stats-container {
         grid-template-columns: 1fr;
     }
-/* button sticky */
+
+    /* button sticky */
     .sticky-download-button {
         display: none;
     }
-/* formulaire */
+
+    /* formulaire */
     .container {
         flex-direction: column;
     }
-    body {
-        font-size: 10px;
+
+    #hero {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        background-size: auto;
+    }
+
+    .hero-content>h1 {
+        font-size: 2rem;
     }
 }

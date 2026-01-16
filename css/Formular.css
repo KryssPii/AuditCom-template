@@ -111,3 +111,6 @@
 #downloadForm button[type="submit"]:hover {
     background-color: #f0f0f0;
 }
+span.progress-text{
+    color: #f0f0f0;
+}
